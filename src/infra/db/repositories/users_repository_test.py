@@ -1,7 +1,8 @@
 from .users_repository import UsersRepository
 
+
 def test_insert_user():
-    mocked_first_name = "fist"
+    mocked_first_name = "first"
     mocked_last_name = "last"
     mocked_age = 34
 

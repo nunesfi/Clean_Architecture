@@ -1,6 +1,7 @@
 from typing import Dict
 from src.domain.use_cases.user_finder import UserFinder as UserFinderInterface
-from data.interfaces.users_repository import UsersRepositoryInterface
+from src.data.interfaces.users_repository import UsersRepositoryInterface
+
 
 class UserFinder(UserFinderInterface):
     def __init__(self, users_repository: UsersRepositoryInterface) -> None:

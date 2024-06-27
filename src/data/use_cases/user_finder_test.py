@@ -1,5 +1,6 @@
 from src.infra.db.repositories.users_repository import UsersRepository
-from user_finder import UserFinder
+from src.data.use_cases.user_finder import UserFinder
+
 
 def test_find():
     repo = UsersRepository()
